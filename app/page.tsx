@@ -9,29 +9,51 @@ import { Mail, Phone, MapPin } from "lucide-react"
 export default function Component() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-      <header className="px-4 lg:px-6 h-14 flex items-center bg-gray-900 text-white">
-        <Link href="#" className="flex items-center justify-center" prefetch={false}>
-          <span className="text-xl font-bold">Madera y Clavos</span>
-          <span className="sr-only">Madera y Clavos</span>
-        </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link href="#proyectos" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Proyectos
+      <header className="sticky top-0 z-30 w-full backdrop-blur bg-white/70 border-b border-gray-200 shadow-md transition-all duration-300">
+        <div className="max-w-7xl mx-auto flex items-center h-16 px-4 lg:px-8">
+          <Link href="#" className="flex items-center gap-3 group" prefetch={false}>
+            <img
+              src="/icons/wood-grain-colored.png"
+              alt="Logo Madera y Clavos"
+              width="40"
+              height="40"
+              className="rounded-full shadow border border-gray-300 bg-white/80 group-hover:scale-105 transition-transform duration-200"
+            />
+            <span className="text-2xl font-extrabold tracking-tight text-gray-900 font-serif drop-shadow-sm">
+              Madera y Clavos
+            </span>
           </Link>
-          <Link href="#servicios" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Servicios
-          </Link>
-          <Link
-            href="#sobre-nosotros"
-            className="text-sm font-medium hover:underline underline-offset-4"
-            prefetch={false}
-          >
-            Sobre Nosotros
-          </Link>
-          <Link href="#contacto" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Contacto
-          </Link>
-        </nav>
+          <nav className="ml-auto flex gap-2 sm:gap-4">
+            <Link
+              href="#proyectos"
+              className="px-4 py-2 rounded-lg font-medium text-gray-700 hover:bg-blue-600 hover:text-white transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+              prefetch={false}
+            >
+              Proyectos
+            </Link>
+            <Link
+              href="#servicios"
+              className="px-4 py-2 rounded-lg font-medium text-gray-700 hover:bg-blue-600 hover:text-white transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+              prefetch={false}
+            >
+              Servicios
+            </Link>
+            <Link
+              href="#sobre-nosotros"
+              className="px-4 py-2 rounded-lg font-medium text-gray-700 hover:bg-blue-600 hover:text-white transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+              prefetch={false}
+            >
+              Sobre Nosotros
+            </Link>
+            <Link
+              href="#contacto"
+              className="px-4 py-2 rounded-lg font-medium text-white bg-blue-600 shadow hover:bg-blue-700 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+              prefetch={false}
+            >
+              Contacto
+            </Link>
+          </nav>
+        </div>
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50 text-gray-900">
