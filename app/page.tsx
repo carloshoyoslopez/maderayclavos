@@ -126,7 +126,7 @@ export default function Component() {
               <Card className="group overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                 <Link href="#" className="block" prefetch={false}>
                   <Image
-                    src="/images/coffee-table.png"
+                    src="/public/images/coffee-table.png"
                     width="600"
                     height="400"
                     alt="Mesa de centro de madera rústica con patas de metal"
@@ -143,7 +143,7 @@ export default function Component() {
               <Card className="group overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                 <Link href="#" className="block" prefetch={false}>
                   <Image
-                    src="/images/built-in-closet.png"
+                    src="/public/images/built-in-closet.png"
                     width="600"
                     height="400"
                     alt="Armario empotrado modular con estantes y cajones"
@@ -160,7 +160,7 @@ export default function Component() {
               <Card className="group overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                 <Link href="#" className="block" prefetch={false}>
                   <Image
-                    src="/images/modern-kitchen.png"
+                    src="/public/images/modern-kitchen.png"
                     width="600"
                     height="400"
                     alt="Cocina moderna con gabinetes de madera y encimeras oscuras"
@@ -177,7 +177,7 @@ export default function Component() {
               <Card className="group overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                 <Link href="#" className="block" prefetch={false}>
                   <Image
-                    src="/images/closet-render.png"
+                    src="/public/images/closet-render.png"
                     width="600"
                     height="400"
                     alt="Diseño 3D de un armario moderno"
@@ -194,7 +194,7 @@ export default function Component() {
               <Card className="group overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                 <Link href="#" className="block" prefetch={false}>
                   <Image
-                    src="/images/kitchen-island.png"
+                    src="/public/images/kitchen-island.png"
                     width="600"
                     height="400"
                     alt="Isla de cocina con base de madera y encimera de granito"
@@ -211,7 +211,7 @@ export default function Component() {
               <Card className="group overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                 <Link href="#" className="block" prefetch={false}>
                   <Image
-                    src="/images/built-in-closet.png"
+                    src="/public/images/built-in-closet.png"
                     width="600"
                     height="400"
                     alt="Armario empotrado con iluminación interior"
@@ -255,7 +255,7 @@ export default function Component() {
             <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <Card className="flex flex-col items-center p-6 text-center shadow-sm">
                 <img
-                  src="/icons/table.png"
+                  src="/public/icons/table.png"
                   width="100"
                   height="100"
                   alt="Icono de mesa para muebles a medida"
@@ -268,7 +268,7 @@ export default function Component() {
               </Card>
               <Card className="flex flex-col items-center p-6 text-center shadow-sm">
                 <img
-                  src="/icons/wood-grain-outline.png"
+                  src="/public/icons/wood-grain-outline.png"
                   width="100"
                   height="100"
                   alt="Icono de restauración de muebles"
@@ -281,7 +281,7 @@ export default function Component() {
               </Card>
               <Card className="flex flex-col items-center p-6 text-center shadow-sm">
                 <img
-                  src="/icons/kitchen-counter.png"
+                  src="/public/icons/kitchen-counter.png"
                   width="100"
                   height="100"
                   alt="Icono de cocina para diseño y asesoramiento"
@@ -393,7 +393,7 @@ export default function Component() {
                 <CardContent className="p-0 grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-700">
                   <div className="flex flex-col items-center text-center">
                     <img
-                      src="/icons/wood-grain-colored.png"
+                      src="/public/icons/wood-grain-colored.png"
                       width="200"
                       height="150"
                       alt="Muestra de madera de Parota"
@@ -404,7 +404,7 @@ export default function Component() {
                   </div>
                   <div className="flex flex-col items-center text-center">
                     <img
-                      src="/icons/wood-grain-colored.png"
+                      src="/public/icons/wood-grain-colored.png"
                       width="200"
                       height="150"
                       alt="Muestra de madera de Teka"
@@ -415,7 +415,7 @@ export default function Component() {
                   </div>
                   <div className="flex flex-col items-center text-center">
                     <img
-                      src="/icons/wood-grain-colored.png"
+                      src="/public/icons/wood-grain-colored.png"
                       width="200"
                       height="150"
                       alt="Muestra de madera de Roble"
@@ -426,7 +426,7 @@ export default function Component() {
                   </div>
                   <div className="flex flex-col items-center text-center">
                     <img
-                      src="/icons/wood-grain-colored.png"
+                      src="/public/icons/wood-grain-colored.png"
                       width="200"
                       height="150"
                       alt="Muestra de madera de Caoba"
@@ -437,7 +437,7 @@ export default function Component() {
                   </div>
                   <div className="flex flex-col items-center text-center">
                     <img
-                      src="/icons/wood-grain-colored.png"
+                      src="/public/icons/wood-grain-colored.png"
                       width="200"
                       height="150"
                       alt="Muestra de madera de Encino"
@@ -448,7 +448,7 @@ export default function Component() {
                   </div>
                   <div className="flex flex-col items-center text-center">
                     <img
-                      src="/icons/wood-grain-colored.png"
+                      src="/public/icons/wood-grain-colored.png"
                       width="200"
                       height="150"
                       alt="Muestra de madera de Pino"
@@ -539,6 +539,47 @@ export default function Component() {
                   </form>
                 </CardContent>
               </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* Sección de Mantenimiento */}
+        <section id="mantenimiento" className="w-full py-12 md:py-24 lg:py-32 bg-yellow-50">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-yellow-200 px-3 py-1 text-sm text-yellow-800">
+                  Mantenimiento y Reparaciones
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Servicios de Mantenimiento</h2>
+                <p className="max-w-[700px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
+                  Ofrecemos mantenimiento preventivo y correctivo para tus muebles y espacios de madera. ¡Mantén tu hogar en óptimas condiciones!
+                </p>
+              </div>
+            </div>
+            <div className="mx-auto grid max-w-3xl items-start gap-8 py-12 md:grid-cols-2">
+              <div className="flex flex-col items-center text-center">
+                <img
+                  src="/icons/taladro.png"
+                  width="80"
+                  height="80"
+                  alt="Icono de taladro para mantenimiento"
+                  className="mb-4 rounded-full bg-yellow-100 p-3 shadow"
+                />
+                <h3 className="font-semibold text-lg text-yellow-800">Reparaciones y Ajustes</h3>
+                <p className="text-sm text-gray-700">Solucionamos problemas comunes y realizamos ajustes para prolongar la vida útil de tus muebles.</p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <img
+                  src="/icons/wardrobe.png"
+                  width="80"
+                  height="80"
+                  alt="Icono de closet para mantenimiento"
+                  className="mb-4 rounded-full bg-yellow-100 p-3 shadow"
+                />
+                <h3 className="font-semibold text-lg text-yellow-800">Mantenimiento de Closets</h3>
+                <p className="text-sm text-gray-700">Revisión, limpieza y optimización de closets y armarios para que siempre funcionen como nuevos.</p>
+              </div>
             </div>
           </div>
         </section>
